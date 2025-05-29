@@ -10,15 +10,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <EditText
-            android:id="@+id/editTextName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/user_name_field"
-            android:layout_marginBottom="8dp"
-            android:inputType="text" />
-
         <TextView
             android:id="@+id/textViewUserName"
             android:layout_width="match_parent"
@@ -69,12 +60,47 @@
                 android:layout_marginStart="8dp"/>
         </LinearLayout>
 
-        <CheckBox
-            android:id="@+id/checkboxEnableProcessing"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enable_processing_checkbox_text"
-            android:layout_marginBottom="16dp"/>
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/buttonSwitchCamera"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_camera_button_text"/>
+        </LinearLayout>
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/checkboxEnableProcessing"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/enable_processing_checkbox_text"-->
+<!--            android:layout_marginBottom="16dp"/>-->
+
+        <EditText
+            android:id="@+id/editTextUserNameForSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/user_name_field_hint"
+            android:inputType="textPersonName"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonSaveSample"-->
+<!--            style="?android:attr/buttonBarButtonStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/save_sample_button_text"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_marginBottom="16dp"/>-->
 
         <LinearLayout
             style="?android:attr/buttonBarStyle"
@@ -83,14 +109,6 @@
             android:orientation="horizontal"
             android:gravity="center"
             android:layout_marginBottom="16dp">
-
-            <Button
-                android:id="@+id/buttonSaveSample"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/save_sample_button_text" />
 
             <Button
                 android:id="@+id/buttonIdentify"

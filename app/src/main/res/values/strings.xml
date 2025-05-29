@@ -5,6 +5,7 @@
     <string name="start_button_text">Start</string>
     <string name="stop_button_text">Stop</string>
     <string name="video_capture_status_text">Failed to open camera</string>
+    <string name="switch_camera_button_text">Switch Camera</string>
     <string name="enable_processing_checkbox_text">Enable processing</string>
     <string name="image_view_content_description">Image View</string>
     <string name="error_loading_cascade" translatable="false">Error loading eye cascade: %1$s</string>
@@ -14,4 +15,23 @@
     <string name="camera_output" translatable="false">Camera output</string>
     <string name="identification_result">Identified as %s</string>
     <string name="error_loading_TFLite_model" translatable="false">Error loading TFLite model: %1$s</string>
+
+    <string name="select_photo_button_text">Select Photo</string>
+    <string name="save_example_button_text">Save Example</string>
+    <string name="user_name_field_hint">Enter user name</string>
+    <string name="iris_detected_enter_name">Iris detected. Enter name and save.</string>
+    <string name="iris_not_detected_select_another">Iris not detected. Please select another photo.</string>
+    <string name="error_name_empty">Name cannot be empty.</string>
+    <string name="error_name_exists">This name already exists. Please enter a different name.</string>
+    <string name="error_no_iris_to_save">No detected iris to save.</string>
+    <string name="error_embedding_generation_failed" translatable="false">Error: Could not generate embedding.</string>
+    <string name="embedding_saved_for">Embedding saved for %s</string>
+    <string name="error_saving_embedding">Error saving embedding: %s</string>
+    <string name="error_processing_image">Error processing image: %s</string>
+    <string name="no_iris_to_identify">No iris data available to identify.</string>
+    <string name="error_embedding_generation_for_identification" translatable="false">Error: Could not generate embedding for identification.</string>
+    <string name="no_saved_samples" translatable="false">No saved samples to compare against.</string>
+    <string name="error_identifying_iris">Error identifying iris: %s</string>
+    <string name="identification_result_detailed">Identified: %1$s (Score: %2$s)</string>
+    <string name="permissions_not_granted" translatable="false">Permissions not granted by the user.</string>
 </resources>

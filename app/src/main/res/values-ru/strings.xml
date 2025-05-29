@@ -5,12 +5,13 @@
     <string name="start_button_text">Старт</string>
     <string name="stop_button_text">Стоп</string>
     <string name="video_capture_status_text">Ошибка: -камера</string>
+    <string name="switch_camera_button_text">Переключить камеру</string>
     <string name="enable_processing_checkbox_text">Обработка</string>
     <string name="image_view_content_description">Просмотр</string>
     <string name="error_loading_cascade">Error loading eye cascade: %1$s</string>
     <string name="user_name_field">Введите имя</string>
     <string name="save_sample_button_text">Сохранить</string>
-    <string name="identify_button_text">Идентифицировать</string>
+<!--    <string name="identify_button_text">Идентифицировать</string>-->
     <string name="camera_output">Camera output</string>
     <string name="identification_result">Идентифицирован(-а) как %s</string>
     <string name="error_loading_TFLite_model">Error loading TFLite model: %1$s</string>
